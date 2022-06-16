@@ -91,7 +91,11 @@ body {
 .btn {
     background-color: #F6904D;
     border-color: white;
+    color: white;
     text-shadow: none;
+}
+:hover.btn {
+    background-color: darkred;
 }
 
 #titre {
