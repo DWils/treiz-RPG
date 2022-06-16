@@ -46,7 +46,8 @@ body {
 }
 
 span{
-    color: grey;
+    color: crimson;
+    font-weight: bolder;
 }
 
 footer {
