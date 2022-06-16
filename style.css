@@ -94,9 +94,14 @@ body {
     color: white;
     text-shadow: none;
 }
-:hover.btn {
-    background-color: darkred;
-}
+.btn-primary:hover {
+    background-color: darkred !important;-
+    box-shadow: none !important;
+ }
+ .btn-primary:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+ }
 
 #titre {
     margin-top: 3%;
