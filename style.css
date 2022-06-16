@@ -16,12 +16,57 @@
     margin-top: 7%;
 }
 
+
+#paiement{
+    height: 200px;
+    width: 225px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+
+#paiement1{
+    height: 600px;
+    width: 825px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
 #image{
     margin-top: 3%;
     margin-right: 10%;
     
 }
+.animaux {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+
+}
+#dragon{
+    height: 450px;
+    width: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+
+#hippogriffi{
+    height: 450px;
+    width: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+
+#imageanimaux{
+    margin-top: 3%;
+    margin-right: 10%;
+    
+}
 
 
 
