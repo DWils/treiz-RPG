@@ -70,10 +70,15 @@ h5,p,button{
 #imageanimaux{
     margin-top: 3%;
     margin-right: 10%;
-    
 }
 
-
+.animaux{
+    color: gold;
+    font-weight: bolder;
+    /* background-color: #F6904D; */
+    font-style: italic;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+}
 body {
     background-image:url("https://media.discordapp.net/attachments/978218303401099294/986900889384157204/background.png?width=1058&height=595");
     background-size: cover;
