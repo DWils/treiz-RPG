@@ -8,6 +8,13 @@
 
 }
 
+button{
+    font-style: italic;
+}
+
+h5{
+    font-style: italic;
+}
 
 #archer,#mage,#chevalier{
     height: 450px;
