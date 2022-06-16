@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .personnage {
   
     display: flex;
@@ -24,3 +25,31 @@
 
 
 
+=======
+.navbar,footer {
+    background-color:#F6904D!important;
+}
+
+.btn {
+    background-color: #F6904D;
+    border-color: white;
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 400%;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+#titrelogo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+>>>>>>> 12a7dfa34b3d40105b15399858c0ff6d0a3c7973
