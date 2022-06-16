@@ -8,11 +8,7 @@
 
 }
 
-button{
-    font-style: italic;
-}
-
-h5{
+h5,p,button{
     font-style: italic;
 }
 
