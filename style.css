@@ -21,6 +21,7 @@
     margin-top: 3%;
     margin-right: 10%;
     color : gold;
+    font-style: italic;
 }
 
 
@@ -43,6 +44,7 @@ body {
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 400%;
+    font-style: italic;
     color: gold;
 }
 
@@ -50,6 +52,7 @@ span{
     color: gold;
     font-weight: bolder;
     background-color: #F6904D;
+    font-style: italic;
 }
 
 footer {
@@ -58,4 +61,5 @@ footer {
 
 .titrelogo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
