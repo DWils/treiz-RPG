@@ -95,12 +95,14 @@ body {
     text-shadow: none;
 }
 .btn-primary:hover {
-    background-color: darkred !important;-
-    box-shadow: none !important;
- }
- .btn-primary:focus {
     background-color: darkred !important;
     box-shadow: none !important;
+    border-color: white;
+}
+.btn-primary:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
  }
 
 #titre {
