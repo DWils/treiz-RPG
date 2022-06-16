@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .personnage {
   
     display: flex;
@@ -20,12 +19,15 @@
 #image{
     margin-top: 3%;
     margin-right: 10%;
-    
+    color : gold;
 }
 
 
+body {
+    background-image:url("https://media.discordapp.net/attachments/978218303401099294/986900889384157204/background.png?width=1058&height=595");
+    background-size: cover;
+}
 
-=======
 .navbar,footer {
     background-color:#F6904D!important;
 }
@@ -36,20 +38,21 @@
 }
 
 #titre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 400%;
+    color: gold;
+}
+
+span{
+    color: grey;
 }
 
 footer {
     margin-top: 10%;
 }
 
-#titrelogo {
+.titrelogo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
->>>>>>> 12a7dfa34b3d40105b15399858c0ff6d0a3c7973
