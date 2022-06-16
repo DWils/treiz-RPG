@@ -8,6 +8,7 @@
 
 }
 
+
 #archer,#mage{
     height: 450px;
     width: 650px;
@@ -46,8 +47,9 @@ body {
 }
 
 span{
-    color: crimson;
+    color: gold;
     font-weight: bolder;
+    background-color: #F6904D;
 }
 
 footer {
