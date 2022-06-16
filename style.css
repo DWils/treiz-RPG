@@ -8,7 +8,11 @@
 
 }
 
-#archer{
+h5,p,button{
+    font-style: italic;
+}
+
+#archer,#mage,#chevalier{
     height: 450px;
     width: 650px;
     margin-left: 10%;
@@ -35,7 +39,8 @@
 #image{
     margin-top: 3%;
     margin-right: 10%;
-    
+    color : gold;
+    font-style: italic;
 }
 .animaux {
   
@@ -69,6 +74,10 @@
 }
 
 
+body {
+    background-image:url("https://media.discordapp.net/attachments/978218303401099294/986900889384157204/background.png?width=1058&height=595");
+    background-size: cover;
+}
 
 .navbar,footer {
     background-color:#F6904D!important;
@@ -84,12 +93,22 @@
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 400%;
+    font-style: italic;
+    color: gold;
+}
+
+span{
+    color: gold;
+    font-weight: bolder;
+    background-color: #F6904D;
+    font-style: italic;
 }
 
 footer {
     margin-top: 10%;
 }
 
-#titrelogo {
+.titrelogo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
