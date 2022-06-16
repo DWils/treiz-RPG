@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
 
 }
 
@@ -40,6 +40,7 @@ body {
 .btn {
     background-color: #F6904D;
     border-color: white;
+    text-shadow: none;
 }
 
 #titre {
@@ -49,12 +50,13 @@ body {
     font-size: 400%;
     font-style: italic;
     color: gold;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
 }
 
 span{
     color: gold;
     font-weight: bolder;
-    background-color: #F6904D;
+    /* background-color: #F6904D; */
     font-style: italic;
 }
 
