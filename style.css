@@ -228,3 +228,21 @@ li {
     text-shadow: 0 0 3px black, 0 0 5px rgb(232, 67, 7);
     font-size: 300%;
 }
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 400%;
+    font-style: italic;
+    color: gold;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+}
+.addperso {
+    text-align: center;
+    background-color: #F6904D;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.botao{
+    border-radius: 10px;
+}
