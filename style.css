@@ -78,7 +78,6 @@ h5,p,button{
 .animaux{
     color: gold;
     font-weight: bolder;
-    background-color: #F6904D;
     font-style: italic;
     text-shadow: 0 0 3px black, 0 0 5px orangered;
 }
@@ -163,6 +162,7 @@ li {
     text-align: center;
     
 }
+
 #im1 {
     position: relative;
 }
@@ -203,6 +203,16 @@ li {
     text-align: left;
    
 }
+#butt1:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+#butt1:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+ }
 #tb {
     font-family: serpentine;
     text-align: center;
