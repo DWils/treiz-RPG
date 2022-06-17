@@ -41,6 +41,20 @@ label{
     margin-top: 2%;
     border-radius: 20px;
 }
+
+
+#btn-ajout:hover, #btn-ajout:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+
+.selecteur:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+
 #form{
     display: flex;
     justify-content: center;
