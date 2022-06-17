@@ -228,3 +228,14 @@ li {
     text-shadow: 0 0 3px black, 0 0 5px rgb(232, 67, 7);
     font-size: 300%;
 }
+
+#myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+
