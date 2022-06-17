@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper", {
 
   function addHero(e){
     e.preventDefault()
-    champs = document.querySelectorAll('#myform')
+    champs = document.querySelectorAll('.form')
     // class .form(ou autre) sur tous les input
     champs.forEach(x => {
       console.log(x.value)

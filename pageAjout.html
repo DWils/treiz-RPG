@@ -19,8 +19,8 @@
           Treiz'RPG
         </a>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <a href="pageAnimaux.html"type="button" class="btn btn-primary">Catalogue des animaux</button></a>
-            <a href="moncompte.html" type="button" class="btn btn-primary">Mon Compte</a>
+            <a href="pageAnimaux.html"><button type="button" class="btn btn-primary">Catalogue des animaux</button></a>
+            <a href="moncompte.html"><button type="button" class="btn btn-primary">Mon Compte</button></a>
         </div>
     </nav>
     
@@ -29,12 +29,12 @@
     </div>
 
       
-    <form id="myform" action="#" method="get">
+    <form id="myform" name="addHero">
         <label for="nom">Le nom du personnage*:</label>
-        <input type="text" id="nom" name="nom" placeholder="Nom du personnage" minlength="5" maxlength="15" required><br>
+        <input class="form" type="text" id="nom" name="nom" placeholder="Nom du personnage" minlength="5" maxlength="15" required><br>
 
         <label for="classe">Sélectionner la classe:</label>
-        <select class="selecteur"   id="classe" name="classe">
+        <select class="selecteur form"   id="classe" name="classe">
             <option value="Archer">Archer</option>
             <option value="Mage" selected>Magicien</option>
             <option value="Chevalier">Chevalier</option>
@@ -44,7 +44,7 @@
         </select>
 
         <label for="race">Sélectionner la race:</label>
-        <select class="selecteur" id="classe" name="race">
+        <select class="selecteur form" id="classe" name="race">
             <option value="Elfe">Elfe</option>
             <option value="Humain" selected>Humain</option>
             <option value="Nain">Nain</option>
@@ -53,8 +53,8 @@
             <option value="Démon">Démon</option>
         </select>
 
-        <label id="fichier" for="fichier">Ajouter une photo de votre personnage:</label>
-        <input type="file">
+        <label for="fichier">Ajouter une photo de votre personnage:</label>
+        <input  id="fichier "type="file form">
         
         <button id="btn-ajout" class="btn btn-primary" type="submit" name="submit">Ajouter le personnage</button>
 
