@@ -78,7 +78,6 @@ h5,p,button{
 .animaux{
     color: gold;
     font-weight: bolder;
-    background-color: #F6904D;
     font-style: italic;
     text-shadow: 0 0 3px black, 0 0 5px orangered;
 }
