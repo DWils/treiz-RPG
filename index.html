@@ -8,9 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css">
     <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="./myscript.js"></script>
     <title>Treiz'RPG</title>
 </head>
+
 <body>
     <nav class="navbar navbar-light bg-light px-4">
         <a class="navbar-brand titrelogo" href="./index.html">
@@ -20,9 +23,11 @@
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button type="button" class="btn btn-primary">Ajouter un nouveau personnage</button>
             <a href="pageAnimaux.html"type="button" class="btn btn-primary">Catalogue des animaux</button></a>
-            <button type="button" class="btn btn-primary">Mon Compte</button>
+            <a href="moncompte.html" type="button" class="btn btn-primary">Mon Compte</a>
         </div>
     </nav>
+
+
     <div class="text-center">
       <h1 id="titre">Les personnages</h1>
     </div>
@@ -69,6 +74,67 @@
         </div>
     </div>
 
+<!-- 
+    <section>
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageGandalf.html"><img src="Images/GANDALF.jpeg" alt="gandalf"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Gandalf
+                </span>
+                <span class="profession">
+                  Magicien
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageArthur.html"><img src="Images/Guerrier.jpg" alt="arthur"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Arthur
+                </span>
+                <span class="profession">
+                  Chevalier
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageLegolas.html"><img src="Images/legolas_2.jpg" alt="legolas"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Legolas
+                </span>
+                <span class="profession">
+                  Archer
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+
+    </section> -->
+
+
+
+
     <footer>
         <div class="container-fluid text-center bg-ligh">
             <div class="row p-3s">
@@ -84,6 +150,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
