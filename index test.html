@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css">
     <link href="style.css" rel="stylesheet"/>
     <title>Treiz'RPG</title>
+
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light px-4">
@@ -22,51 +27,65 @@
             <button type="button" class="btn btn-primary">Mon Compte</button>
         </div>
     </nav>
+    
     <div class="text-center">
       <h1 id="titre">Les personnages</h1>
     </div>
-    <div class="container-fluid p-0">
-        <div id="carousel" class="carousel slide  w-50 m-auto" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="pageGandalf.html"><img src="Images/GANDALF.jpeg" height="800px" class="d-block w-100" alt="gandalf"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="Nom">Gandalf - Magicien</h5>
-                  <p></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="pageArthur.html"><img src="Images/Guerrier.jpg" height="800px" class="d-block w-100" alt="1"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="Nom">Arthur Pendragon - Guerrier</h5>
-                  <p></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="pageLegolas.html"><img src="Images/legolas_2.jpg" height="800px" class="d-block w-100" alt="2"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="Nom">Legolas - Archer</h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
+<section>
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content" >       
+          <div class ="swiper-slide image" >
+            <a href="pageGandalf.html"><img src="Images/GANDALF.jpeg" height="800" width="400" alt="gandalf"></a>
+          </div>
+          <div class ="swiper-slide image">
+            <a href="pageArthur.html"><img src="Images/Guerrier.jpg" height="800" width="400" alt="Aragon"></a>
+          </div>
+          <div class ="swiper-slide image">
+            <a href="pageLegolas.html"><img src="Images/legolas_2.jpg" height="800" width="400" alt ="Legolas" ></a>
+          </div>
+          <div class ="swiper-slide image">
+           <img src="Images/Nain.jpg" height="800" width="400" alt="Griffon"></a>
+            <a href="index test.html" class="bouton_creation" role="button">Creer ton nouveau personnage Nain</a>
+          </div>
+          <div class ="swiper-slide image">
+            <a href="pageArthur.html"><img src="Images/Moraine.jpg" height="800" width="400" alt="Griffon"></a>
+            <a href="index test.html" class="bouton_creation" role="button">Creer ton nouveau personnage Sorcière</a>
+          </div>
+          <div class ="swiper-slide image">
+            <a href="pageLegolas.html"><img src="Images/fee.png" height="800" width="400" alt = "Hydre"></a>
+            <a href="index test.html" class="bouton_creation" role="button">Creer ton nouveau personnage Fée</a>
+          </div>
         </div>
     </div>
 
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+
+</section>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
     <footer>
         <div class="container-fluid text-center bg-ligh">
             <div class="row p-3s">
