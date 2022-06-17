@@ -27,8 +27,19 @@ label{
     font-size:150%;
 }
 
+.selecteur{
+    background-color: #F6904D;
+    border-color: white;
+    color: white;
+    text-shadow: none;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
 #btn-ajout{
     margin-top: 2%;
+    border-radius: 20px;
 }
 #form{
     display: flex;
