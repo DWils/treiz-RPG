@@ -13,3 +13,17 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+
+
+  function addHero(e){
+    e.preventDefault()
+    champs = document.querySelectorAll('#form')
+    // class .form(ou autre) sur tous les input
+    champs.forEach(x => {
+      console.log(x.value)
+    });
+  }
+  
+  document.querySelector('#myform').addEventListener('submit', addHero)

@@ -19,6 +19,26 @@ h5,p,button{
     margin-top: 7%;
 }
 
+label{
+    color : gold;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:150%;
+}
+
+#btn-ajout{
+    margin-top: 2%;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
 
 #paiement{
     height: 200px;
