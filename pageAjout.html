@@ -31,7 +31,7 @@
     
     <form id="form" action="#" method="get">
         <label for="nom">Le nom du personnage*:</label>
-        <input type="text" id="nom" name="nom" placeholder="Nom du personnage" required><br>
+        <input type="text" id="nom" name="nom" placeholder="Nom du personnage" minlength="5" maxlength="15" required><br>
 
         <label for="classe">Sélectionner la classe:</label>
         <select class="selecteur"   id="classe" name="classe">
@@ -56,9 +56,7 @@
         <label for="fichier">Ajouter une photo de votre personnage:</label>
         <input type="file">
         
-
-
-        <button id="btn-ajout" class="btn" type="submit" name="submit">Ajouter le personnage</button>
+        <button id="btn-ajout" class="btn btn-primary" type="submit" name="submit">Ajouter le personnage</button>
 
     </form>
 

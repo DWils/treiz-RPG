@@ -141,13 +141,13 @@ label{
     text-shadow: none;
 }
 
-.btn-primary:hover, .btn-info:hover {
+.btn-primary:hover, .btn-info:hover, .selecteur:hover {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
 }
 
-.btn-primary:focus, .btn-info:focus {
+.btn-primary:focus, .btn-info:focus, .selecteur:focus {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
