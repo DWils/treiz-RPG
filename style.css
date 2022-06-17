@@ -138,52 +138,83 @@ footer {
     font-style: italic;
 }
 
-
-
-
-
-
-
-section .card .image{
-    height: 140px;
-    width: 140px;
-
+#im1 {
+   
+    height: 450px;
+    width: 300px;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%; */
 }
 
 
-section .card .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 
+
+li {
+    list-style-type: none;
+  
 }
 
-.card{
+#ll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+#im1 {
     position: relative;
 }
 
-.card::before{
-    content: "";
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-.card .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    object-fit:cover;
-}
-
-.card .name-profession{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#tit1 {
+    position: absolute;
+    top : 55%;
+    left : 10%;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
 
 }
+#tit2 {
+    position: absolute;
+    top : 60%;
+    left: 40%;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
+}
 
-.swiper{
-    width: 950px;
+#tit3 {
+    position: absolute;
+    top : 60%;
+    left: 70%;
+    
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
+}
 
+#butt1 {
+    position: absolute;
+    top : 90%;
+    left: 90%;
+    
+    text-align: left;
+   
+}
+#tb {
+    font-family: serpentine;
+    text-align: center;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+    font-size: 350%;
+
+}
+
+#name {
+    font-family: games;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    text-shadow: 0 0 3px black, 0 0 5px rgb(232, 67, 7);
+    font-size: 300%;
 }
