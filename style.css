@@ -6,7 +6,7 @@
     align-items: center;
     text-shadow: 0 0 3px black, 0 0 5px orangered;
 
-}
+} 
 
 h5,p,button{
     font-style: italic;
@@ -27,6 +27,52 @@ h5,p,button{
     align-items: center;
 }
 
+label{
+    color : gold;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:150%;
+}
+
+.selecteur{
+    background-color: #F6904D;
+    border-color: white;
+    color: white;
+    text-shadow: none;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+#btn-ajout{
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+
+#btn-ajout:hover, #btn-ajout:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+
+.selecteur:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+
 #paiement{
     height: 200px;
     width: 225px;
@@ -39,15 +85,16 @@ h5,p,button{
     height: 600px;
     width: 825px;
     margin-left: 10%;
-    margin-right: 10%;
     margin-top: 7%;
 }
-#img{
+
+ #image{
     margin-top: 3%;
     margin-right: 10%;
     color : gold;
     font-style: italic; */
 }
+
 .animaux {
   
     display: flex;
@@ -55,15 +102,16 @@ h5,p,button{
     justify-content: center;
     align-items: center;
 
+} 
 
-}
-#dragon{
+ #dragon{
     height: 450px;
     width: 650px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 7%;
 }
+
 
 #hippogriffi{
     height: 450px;
@@ -73,19 +121,19 @@ h5,p,button{
     margin-top: 7%;
 }
 
-#imageanimaux{
+ #imageanimaux{
     margin-top: 3%;
     margin-right: 10%;
-}
+ }
+
 
 .animaux{
     color: gold;
     font-weight: bolder;
-    background-color: #F6904D;
     font-style: italic;
     text-shadow: 0 0 3px black, 0 0 5px orangered;
 }
-body {
+ body {
     background-image:url("https://media.discordapp.net/attachments/978218303401099294/986900889384157204/background.png?width=1058&height=595");
     background-size: cover;
     align-items: center;
@@ -117,7 +165,19 @@ body {
     background-color: darkred;
 }
 
-#titre {
+.btn-primary:hover, .btn-info:hover, .selecteur:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+
+.btn-primary:focus, .btn-info:focus, .selecteur:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+ }
+
+ #titre {
     margin-top: 3%;
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -127,16 +187,18 @@ body {
     text-shadow: 0 0 3px black, 0 0 5px orangered;
 }
 
+
 span{
     color: gold;
     font-weight: bolder;
-    /* background-color: #F6904D; 
-    font-style: italic;
+    /* background-color: #F6904D; */
+    /* font-style: italic; */
 }
 
 footer {
     margin-top: 10%;
 }
+
 
 .titrelogo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -148,6 +210,94 @@ footer {
     ;
 }
 
+#im1 {
+   
+    height: 450px;
+    width: 300px;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%; */
+}
 
 
 
+
+li {
+    list-style-type: none;
+  
+}
+
+#ll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#im1 {
+    position: relative;
+}
+
+#tit1 {
+    position: absolute;
+    top : 55%;
+    left : 10%;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
+
+}
+#tit2 {
+    position: absolute;
+    top : 60%;
+    left: 40%;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
+}
+
+#tit3 {
+    position: absolute;
+    top : 60%;
+    left: 70%;
+    
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 3px black, 0 0 5px rgb(255, 0, 0);
+}
+
+#butt1 {
+    position: absolute;
+    top : 90%;
+    left: 90%;
+    
+    text-align: left;
+   
+}
+#butt1:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+#butt1:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+ }
+#tb {
+    font-family: serpentine;
+    text-align: center;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+    font-size: 350%;
+
+}
+
+#name {
+    font-family: games;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    text-shadow: 0 0 3px black, 0 0 5px rgb(232, 67, 7);
+    font-size: 300%;
+}

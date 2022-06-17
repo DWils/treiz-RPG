@@ -8,7 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css">
     <link href="style.css" rel="stylesheet"/>
-    <title>Paiement</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <title>Ajout d'un nouveau personnage</title>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light px-4">
@@ -17,28 +19,42 @@
           Treiz'RPG
         </a>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <a href="pageAjout.html"><button type="button" class="btn btn-primary">Ajouter un nouveau personnage</button></a>
             <a href="pageAnimaux.html"type="button" class="btn btn-primary">Catalogue des animaux</button></a>
             <a href="moncompte.html" type="button" class="btn btn-primary">Mon Compte</a>
         </div>
     </nav>
-
-    <div class = 'personnage'>
-        <img id = 'paiement' src="Images/Logo.png"  height="25%" alt="2" alt="archer">
-        <article id = 'image'>
-
-            <h1>Paiement</h1>
-
-            <img id = 'paiement1' src="Images/Paiement.PNG"  height="25%" alt="2" alt="archer">
-
-            <a href="pageAnimaux.html" class="btn btn-info" role="button">Retour</a>
-           
-        </article>
-   </div>
-
-    <div class="container-fluid p-0">
-        <!-- Corps -->
+    
+    <div class="text-center">
+        <h1 id="titre">Ajouter un nouveau personnage</h1>
     </div>
+
+      
+    <form id="myform" action="#" method="get">
+        <label for="nom">Le nom du personnage*:</label>
+        <input type="text" id="nom" name="nom" placeholder="Nom du personnage" minlength="5" maxlength="15" required><br>
+
+        <label for="classe">Sélectionner la classe:</label>
+        <select class="selecteur"   id="classe" name="classe">
+            <option value="Archer">Archer</option>
+            <option value="Mage" selected>Magicien</option>
+            <option value="Chevalier">Chevalier</option>
+            <option value="Chasseur">Chasseur</option>
+            <option value="Voleur">Voleur</option>
+            <option value="Druide">Druide</option>
+        </select>
+
+        <label for="race">Sélectionner la race:</label>
+        <select class="selecteur" id="classe" name="race">
+            <option value="Elfe">Elfe</option>
+            <option value="Humain" selected>Humain</option>
+            <option value="Nain">Nain</option>
+            <option value="Orc">Orc</option>
+            <option value="Mort-Vivant">Mort-Vivant</option>
+            <option value="Démon">Démon</option>
+        </select>
+        <button id="btn-ajout" class="btn btn-primary" type="submit" name="submit">Ajouter le personnage</button>
+
+    </form>
 
     <footer>
         <div class="container-fluid text-center bg-ligh">
@@ -55,6 +71,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
