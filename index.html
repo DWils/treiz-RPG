@@ -8,8 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css">
     <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <title>Treiz'RPG</title>
 </head>
+
 <body>
     <nav class="navbar navbar-light bg-light px-4">
         <a class="navbar-brand titrelogo" href="./index.html">
@@ -19,23 +22,118 @@
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button type="button" class="btn btn-primary">Ajouter un nouveau personnage</button>
             <a href="pageAnimaux.html"type="button" class="btn btn-primary">Catalogue des animaux</button></a>
-            <button type="button" class="btn btn-primary">Mon Compte</button>
+            <a href="moncompte.html" type="button" class="btn btn-primary">Mon Compte</a>
         </div>
     </nav>
-<!-- stylesheet -->
-<link rel="stylesheet" href="path/to/purejscarousel.css">
-<!-- js -->
-<script src="path/to/purejscarousel.js"></script>
-<div class="your-selector-for-carousel">
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    <div class="your-selector-for-carousel-slide"> Your Content </div>
-    ...
-  </div>
+
+
+    <div class="text-center">
+      <h1 id="titre">Les personnages</h1>
+    </div>
+
+
+    <div class="container-fluid p-0">
+        <div id="carousel" class="carousel slide  w-50 m-auto" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pageGandalf.html"><img src="Images/GANDALF.jpeg" height="800px" class="d-block w-100" alt="gandalf"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="Nom">Gandalf - Magicien</h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="pageArthur.html"><img src="Images/Guerrier.jpg" height="800px" class="d-block w-100" alt="1"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="Nom">Arthur Pendragon - Guerrier</h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="pageLegolas.html"><img src="Images/legolas_2.jpg" height="800px" class="d-block w-100" alt="2"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="Nom">Legolas - Archer</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+    </div>
+
+<!-- 
+    <section>
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageGandalf.html"><img src="Images/GANDALF.jpeg" alt="gandalf"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Gandalf
+                </span>
+                <span class="profession">
+                  Magicien
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageArthur.html"><img src="Images/Guerrier.jpg" alt="arthur"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Arthur
+                </span>
+                <span class="profession">
+                  Chevalier
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <a href="pageLegolas.html"><img src="Images/legolas_2.jpg" alt="legolas"></a>
+              </div>
+              <div class="name-profession">
+                <span class="name"  >
+                  Legolas
+                </span>
+                <span class="profession">
+                  Archer
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+
+    </section> -->
+
+
+
 
     <footer>
         <div class="container-fluid text-center bg-ligh">
@@ -52,10 +150,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script>var yourVariable = new PureJSCarousel({
-        carousel: '.your-selector-for-carousel',
-        slide: '.your-selector-for-carousel-slide'
-      });</script>
 </body>
 </html>
