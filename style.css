@@ -52,7 +52,6 @@ label{
     height: 600px;
     width: 825px;
     margin-left: 10%;
-    margin-right: 10%;
     margin-top: 7%;
 }
 
@@ -117,13 +116,13 @@ label{
     text-shadow: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-info:hover {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
 }
 
-.btn-primary:focus {
+.btn-primary:focus, .btn-info:focus {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
