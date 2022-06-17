@@ -55,7 +55,7 @@ label{
     border-color: white;
 }
 
-#myform{
+#form{
     display: flex;
     justify-content: center;
     align-items: center;
