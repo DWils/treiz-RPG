@@ -8,6 +8,15 @@
 
 } 
 
+ul li {
+    padding: 5px;
+    background: #F6904D;
+    margin: 5px 0;
+    color : gold;
+    font-style: italic;
+    text-shadow: 0 0 3px black, 0 0 5px orangered;
+  }
+
 h5,p,button{
     font-style: italic;
 }
