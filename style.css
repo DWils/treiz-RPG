@@ -97,13 +97,13 @@ h5,p,button{
     text-shadow: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-info:hover {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
 }
 
-.btn-primary:focus {
+.btn-primary:focus, .btn-info:focus {
     background-color: darkred !important;
     box-shadow: none !important;
     border-color: white;
