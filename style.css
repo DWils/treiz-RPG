@@ -196,6 +196,16 @@ li {
     text-align: left;
    
 }
+#butt1:hover {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+}
+#butt1:focus {
+    background-color: darkred !important;
+    box-shadow: none !important;
+    border-color: white;
+ }
 #tb {
     font-family: serpentine;
     text-align: center;
